@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3B54DB6187A6941007D1C70 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F3B54DB5187A6941007D1C70 /* README.md */; };
 		F3D824A3187A60E00007E110 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D824A2187A60E00007E110 /* Foundation.framework */; };
 		F3D824A5187A60E00007E110 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D824A4187A60E00007E110 /* CoreGraphics.framework */; };
 		F3D824A7187A60E00007E110 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D824A6187A60E00007E110 /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F3B54DB5187A6941007D1C70 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		F3D8249F187A60E00007E110 /* QR Code Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QR Code Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D824A2187A60E00007E110 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F3D824A4187A60E00007E110 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,6 +87,7 @@
 		F3D82496187A60E00007E110 = {
 			isa = PBXGroup;
 			children = (
+				F3B54DB5187A6941007D1C70 /* README.md */,
 				F3D824A8187A60E00007E110 /* QR Code Reader */,
 				F3D824C7187A60E00007E110 /* QR Code ReaderTests */,
 				F3D824A1187A60E00007E110 /* Frameworks */,
@@ -234,6 +237,7 @@
 			files = (
 				F3D824BB187A60E00007E110 /* Images.xcassets in Resources */,
 				F3D824AD187A60E00007E110 /* InfoPlist.strings in Resources */,
+				F3B54DB6187A6941007D1C70 /* README.md in Resources */,
 				F3D824B6187A60E00007E110 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +468,7 @@
 				F3D824D3187A60E00007E110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3D824D4187A60E00007E110 /* Build configuration list for PBXNativeTarget "QR Code ReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +477,7 @@
 				F3D824D6187A60E00007E110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
