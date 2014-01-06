@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+@import AVFoundation;
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <AVCaptureMetadataOutputObjectsDelegate>
 
 @property (strong, nonatomic) IBOutlet UIView *view;
 @property (weak, nonatomic) IBOutlet UILabel *statusLabel;

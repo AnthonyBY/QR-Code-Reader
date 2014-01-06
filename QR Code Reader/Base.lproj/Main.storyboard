@@ -47,7 +47,6 @@
                     <connections>
                         <outlet property="startStopItem" destination="FnI-Dg-Dc4" id="fWG-7w-sE6"/>
                         <outlet property="statusLabel" destination="dwj-y5-hqY" id="dbh-pI-KtN"/>
-                        <outlet property="view" destination="G7f-mP-kDH" id="3hS-hm-XXE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
